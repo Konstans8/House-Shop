@@ -1,0 +1,46 @@
+.item {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    
+    img {
+        width: 70px;
+        height: 70px;
+        margin-right: 20px;
+    }
+    
+    .cont {
+        display: flex;
+        flex-direction: column;
+    
+        h2 {
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+        
+        b {
+            color: #797979;
+            margin: 0;
+        }
+    }
+    
+    .deleteCont {
+        margin-left: auto;
+    
+        .delete {
+            color: #ca5252;
+            float: right;
+            position: relative;
+            cursor: pointer;
+            // transition: color, transform 500ms ease;
+        }
+        
+        &:hover {
+            color: #d83030;
+            transition: color, transform 500ms ease;
+            transform: scale(1.5);
+        }
+    }
+    
+}
+

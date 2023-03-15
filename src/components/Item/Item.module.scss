@@ -1,0 +1,60 @@
+
+.item {
+    width: 300px;
+    background-color: rgb(196, 241, 241);
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    padding-bottom: 20px;
+    
+    h2 {
+        font-size: 22px;
+    }
+    
+    p {
+        font-size: 14px;
+    }
+}
+
+.item h2, p, b {
+    margin: 10px 20px;
+    color: #333;
+}
+
+.item b {
+    color: #5fa36a;
+}
+
+.image {
+    width: 300px;
+    height: 300px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    transition: transform 500ms ease;
+    cursor: pointer;
+    
+    &:hover {
+        transform: scale(1.05);
+    }
+}
+
+.add_to_card {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    background-color: #ca5252;
+    width: 35px;
+    height: 35px;text-align: center;
+    line-height: 35px;
+    color: white;
+    border-radius: 50%;
+    font-weight: 600;
+    cursor: pointer;
+    transition: transform 500ms ease;
+    
+    &:hover {
+        transform: scale(1.3) translateY(-5px);
+    }
+}
+
